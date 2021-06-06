@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+
+// green color: #50CCB5
+// background color: #0A192F
+// h1: #CCD6F6
+// h2: #8892B0
+// p: #8892B0
+// Font1: Roboto
+// Font2: Consolas
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
     </div>
   );
 }
