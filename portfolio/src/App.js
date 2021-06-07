@@ -1,4 +1,5 @@
 import './App.css';
+import Hero from './Components/Hero';
 import NavBar from './Components/NavBar';
 
 // green color: #50CCB5
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Hero />
     </div>
   );
 }
